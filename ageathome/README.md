@@ -1,1 +1,4 @@
-# &#127916; - `ageathome` _add-on_
+# `README.md`
+
+Add-on for Home-Assistant
+
