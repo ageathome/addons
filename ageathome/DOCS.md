@@ -1,1 +1,2 @@
-# &#127916; `ageathome` configuration 
+# `DOCS.md`
+
