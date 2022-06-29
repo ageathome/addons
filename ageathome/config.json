@@ -39,12 +39,6 @@
     "timezone": "",
     "latitude": "",
     "longitude": "",
-    "mqtt": {
-      "host": "!secret mqtt-broker",
-      "password": "!secret mqtt-password",
-      "port": "!secret mqtt-port",
-      "username": "!secret mqtt-username"
-    },
     "overview": {
       "apikey": "APIKEY4GOOGLE",
       "image": "overview.jpeg",
@@ -85,22 +79,16 @@
     "username": "str?",
     "password": "str?",
     "person": "str?",
-    "w3w": {
-      "words": "str?",
-      "apikey": "str?",
-      "email": "str?"
-    },
-    "mqtt": {
-      "host": "str?",
-      "password": "str?",
-      "port": "port?",
-      "username": "str?"
-    },
     "overview": {
       "apikey": "str?",
       "image": "str?",
       "mode": "list(local|hybrid|roadmap|satellite|terrain)?",
       "zoom": "int(10,22)?"
+    },
+    "w3w": {
+      "words": "str?",
+      "apikey": "str?",
+      "email": "str?"
     }
   }
 }
