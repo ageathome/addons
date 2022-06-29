@@ -4,7 +4,7 @@
   "url": "https://github.com/ageathome",
   "slug": "ageathome",
   "image": "dcmartin/{arch}-addon-ageathome",
-  "stage": "stable",
+  "stage": "experimental",
   "version": "0.0.1",
   "arch": [
     "aarch64",
