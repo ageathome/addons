@@ -28,8 +28,9 @@
     "device": "",
     "group": "",
     "latitude": "",
-    "log_level": "info",
     "longitude": "",
+    "log_level": "info",
+    "log_type": "ALL",
     "mqtt": {
       "host": "core-mosquitto",
       "password": "password",
@@ -43,7 +44,8 @@
       "zoom": "18"
     },
     "reload": true,
-    "timezone": "",
+    "timezone": "America/Los_Angeles",
+    "unit_system": "imperial",
     "w3w": {
       "apikey": "APIKEY4U",
       "words": "///what.three.words"
@@ -88,6 +90,7 @@
     "person": "str?",
     "reload": "bool?",
     "router_name": "str?",
+    "unit_system": "list(imperial|metric)?",
     "username": "str?",
     "w3w": {
       "apikey": "str?",
@@ -100,7 +103,7 @@
   "timeout": 300,
   "tmpfs": true,
   "url": "https://github.com/ageathome",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "video": true,
   "webui": "http://[HOST]:[PORT:7999]/"
 }
