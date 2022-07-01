@@ -7,7 +7,7 @@
   "timeout": 300,
   "tmpfs": true,
   "url": "https://github.com/ageathome",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "arch": [
     "aarch64",
     "amd64",
@@ -77,6 +77,11 @@
     "runc": true
   },
   "schema": {
+    "client": "str?",
+    "device": "str?",
+    "group": "str?",
+    "latitude": "float?",
+    "longitude": "float?",
     "elevation": "int?",
     "log_file": "str?",
     "log_level": "str",
