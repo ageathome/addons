@@ -31,7 +31,6 @@
     "config:rw"
   ],
   "options": {
-    "reload": true,
     "timezone": "America/Los_Angeles",
     "w3w": {
       "apikey": "APIKEY4U",
