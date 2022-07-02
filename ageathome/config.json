@@ -7,7 +7,7 @@
   "timeout": 300,
   "tmpfs": true,
   "url": "https://github.com/ageathome",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "arch": [
     "aarch64",
     "amd64",
@@ -63,9 +63,7 @@
     "longitude": "float?",
     "elevation": "int?",
     "timezone": "str?",
-    "log_file": "str?",
     "log_level": "str",
-    "log_type": "str?",
     "mqtt": {
       "host": "str?",
       "password": "str?",
