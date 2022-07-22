@@ -1,12 +1,6 @@
 # &#127960; Age@Home
-The [Age@Home](http://github.com/ageathome) add-on has the following configuration parameters:
 
-+ `mqtt` - MQTT broker
-+ `oveview` - Overview image
-+ `w3w` - [What3Words](http://what3words.com) location
-+ `uptimerobot_rssurl` - [UptimeRobot](http://uptimerobot.com) RSS feed
-
-# MQTT integration
+# &#9995; MQTT required
 
 A MQTT broker is required; the default 
 [_core-mosquitto_](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto) 
@@ -20,6 +14,13 @@ password: password
 ```
 
 # Configuration
+
+The [Age@Home](http://github.com/ageathome) add-on has the following configuration parameters:
+
++ `mqtt` - MQTT broker
++ `oveview` - Overview image
++ `w3w` - [What3Words](http://what3words.com) location
++ `uptimerobot_rssurl` - [UptimeRobot](http://uptimerobot.com) RSS feed
 
 ## `mqtt`
 ```
