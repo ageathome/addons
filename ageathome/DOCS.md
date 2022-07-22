@@ -6,27 +6,25 @@ The [Age@Home](http://github.com/ageathome) add-on has the following configurati
 + `w3w` - [What3Words](http://what3words.com) location
 + `uptimerobot_rssurl` - [UptimeRobot](http://uptimerobot.com) RSS feed
 
-# Configuration
+# MQTT integration
 
-## MQTT
-
-A `MQTT` broker is required; the default [`mosquitto`](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto) add-on is sufficient, but must be configured with appropriate authentication, for example:
-
-## `mqtt`
-```
-- username: username
-  password: password
-```
-
-### MQTT integration
-
-A MQTT broker is required for this add-on; the MQTT add-on (_core-mosquitto_) is recommended.
+A MQTT broker is required; the default 
+[_core-mosquitto_](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto) 
+add-on is recommended; it must be configured with appropriate authentication, for example:
 
 ```
 host: core-mosquitto
 port: 1883
 username: username
 password: password
+```
+
+# Configuration
+
+## `mqtt`
+```
+- username: username
+  password: password
 ```
 
 ## `overview`
