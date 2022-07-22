@@ -10,9 +10,12 @@ The [Age@Home](http://github.com/ageathome) add-on has the following configurati
 + `uptimerobot_rssurl` - [UptimeRobot](http://uptimerobot.com) RSS feed
 
 ## `mqtt`
+
 ```
-- username: username
-  password: password
+host: core-mosquitto
+port: 1883
+username: username
+password: password
 ```
 
 ## `overview`

@@ -34,11 +34,11 @@ A MQTT broker is required; the default
 [_core-mosquitto_](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto)
 add-on is recommended; it must be configured with appropriate authentication, for example:
 
+## `Logins`
+
 ```
-host: core-mosquitto
-port: 1883
-username: username
-password: password
+- username: username
+  password: password
 ```
 
 <hr>
