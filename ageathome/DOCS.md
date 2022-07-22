@@ -1,6 +1,4 @@
-# &#127960; Age@Home
-
-# Configuration
+# Age@Home configuration
 
 The [Age@Home](http://github.com/ageathome) add-on has the following configuration parameters:
 
@@ -8,6 +6,8 @@ The [Age@Home](http://github.com/ageathome) add-on has the following configurati
 + `oveview` - Overview image
 + `w3w` - [What3Words](http://what3words.com) location
 + `uptimerobot_rssurl` - [UptimeRobot](http://uptimerobot.com) RSS feed
+
+<hr>
 
 ## `mqtt`
 
