@@ -1,8 +1,10 @@
 # &#127960; Age@Home
 
-The [Age@Home](http://age-at-home.com)
-([`ageathome`](http://github.com/ageathome))
-_add-on_ for [Home Assistant](http://home-assistant.io) provides a **replacement** configuration that processes multiple classes of sensor data (e.g. _motion_) through the extensive Home Assistant portfolio of device [integrations](https://www.home-assistant.io/integrations), including [Shelly](http://shelly.cloud).
+The [Age@Home](http://age-at-home.com) ([github](http://github.com/ageathome)) _add-on_ 
+for [Home Assistant](http://home-assistant.io) provides a **replacement** configuration 
+that processes multiple classes of sensor data (e.g. _motion_) using the extensive portfolio of 
+Home Assistant [integrations](https://www.home-assistant.io/integrations), including [Shelly](http://shelly.cloud)
+and many other vendors.
 
 ## Status
 
