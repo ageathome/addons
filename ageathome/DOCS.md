@@ -30,7 +30,7 @@ mode: local
 zoom: 18
 ```
 
-### [`w3w`](http://what3words.com)
+### `w3w`
 The location of devices and other entities may be specified using this service; a free developer account is required to generate an API key.
 
  + `words` - location as `///your.three.words`
@@ -42,7 +42,7 @@ words: ///your.three.words
 ```
 
 
-### [`uptimerobot_rssurl`](http://uptimerobot.com)
+### `uptimerobot_rssurl`
 
 A RSS URL that provides updates from the service; the _unique identifier_ requires a free account.
 
