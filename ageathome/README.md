@@ -1,7 +1,4 @@
-
-
 ![](icon.png)
-
 #  Age@Home
 
 The [Age@Home](http://age-at-home.com) ([github](http://github.com/ageathome)) _add-on_ 
