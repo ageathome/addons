@@ -1,5 +1,5 @@
 {
-  "version": "0.6.4",
+  "version": "0.6.5",
   "arch": [
     "aarch64",
     "amd64",
@@ -86,7 +86,7 @@
     "person": "str?",
     "reload": "bool?",
     "timezone": "str?",
-    "uptimerobot_rssurl": "url?",
+    "uptimerobot_rssurl": "str?",
     "unit_system": "list(imperial|metric)?",
     "w3w": {
       "apikey": "str?",
