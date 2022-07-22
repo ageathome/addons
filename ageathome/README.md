@@ -26,6 +26,19 @@ and many other vendors.
 ![](https://img.shields.io/badge/aarch64-yes-green.svg)[![](https://images.microbadger.com/badges/image/dcmartin/aarch64-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/aarch64-addon-ageathome)[![](https://images.microbadger.com/badges/version/dcmartin/aarch64-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/aarch64-addon-ageathome)[![](https://img.shields.io/docker/pulls/dcmartin/aarch64-addon-ageathome.svg)](https://hub.docker.com/r/dcmartin/aarch64-addon-ageathome)
 ![](https://img.shields.io/badge/armv7-yes-green.svg)[![](https://images.microbadger.com/badges/image/dcmartin/armv7-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/armv7-addon-ageathome)[![](https://images.microbadger.com/badges/version/dcmartin/armv7-addon-ageathome.svg)](https://microbadger.com/images/dcmartin/armv7-addon-ageathome)[![](https://img.shields.io/docker/pulls/dcmartin/armv7-addon-ageathome.svg)](https://hub.docker.com/r/dcmartin/armv7-addon-ageathome)
 
+# &#9995; MQTT required
+
+A MQTT broker is required; the default
+[_core-mosquitto_](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto)
+add-on is recommended; it must be configured with appropriate authentication, for example:
+
+```
+host: core-mosquitto
+port: 1883
+username: username
+password: password
+```
+
 ## Changelog & Releases
 Releases are based on Semantic Versioning, and use the format
 of ``MAJOR.MINOR.PATCH``. In a nutshell, the version will be incremented
