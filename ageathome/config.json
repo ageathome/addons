@@ -25,7 +25,7 @@
   ],
   "name": "Age@Home",
   "options": {
-    "site": "My Home",
+    "site": "My House",
     "mqtt": {
       "host": "core-mosquitto",
       "password": "password",
