@@ -31,9 +31,8 @@ and many other vendors.
 
 # &#9995; MQTT required
 
-A MQTT broker is required; the default
-[_core-mosquitto_](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto)
-add-on is recommended; it must be configured with appropriate authentication, for example:
+A MQTT broker is required; the default [_core-mosquitto_](https://github.com/home-assistant/hassio-addons/tree/master/mosquitto)
+add-on is recommended; the community [add-on](/hassio/addon/core_mosquitto/info) must be configured with appropriate authentication, for example:
 
 ## `logins`
 
