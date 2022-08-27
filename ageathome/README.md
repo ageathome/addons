@@ -12,9 +12,6 @@ and many other vendors.
 ![](https://img.shields.io/github/license/ageathome/core.svg?style=flat)
 ![](https://img.shields.io/github/release-date/ageathome/core.svg?style=flat)
 ![](https://img.shields.io/github/release/ageathome/core.svg?style=flat)
-[![Build Status](https://travis-ci.org/dcmartin/ageathome.svg?branch=master)](https://travis-ci.org/dcmartin/ageathome)
-[![Coverage Status](https://coveralls.io/repos/github/ageathome/core/badge.svg?branch=master)](https://coveralls.io/github/dcmartin/open-horizon?branch=master)
-
 ![](https://img.shields.io/github/repo-size/ageathome/core.svg?style=flat)
 ![](https://img.shields.io/github/last-commit/ageathome/core.svg?style=flat)
 ![](https://img.shields.io/github/commit-activity/w/ageathome/core.svg?style=flat)
