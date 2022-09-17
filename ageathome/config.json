@@ -30,6 +30,12 @@
       "tag": "dev",
       "url": "https://github.com/ageathome/core"
     },
+    "devices": {
+      "person": "none",
+      "primary": "none",
+      "secondary": "none",
+      "tertiary": "none"
+    },
     "iperf_host": "none",
     "log_level": "notice",
     "motionai": {
@@ -51,12 +57,6 @@
       "zoom": 18
     },
     "roles": {
-      "person": "none",
-      "primary": "none",
-      "secondary": "none",
-      "tertiary": "none"
-    },
-    "devices": {
       "person": "none",
       "primary": "none",
       "secondary": "none",
@@ -99,6 +99,12 @@
     },
     "client": "str?",
     "device": "str?",
+    "devices": {
+      "person": "str?",
+      "primary": "str?",
+      "secondary": "str?",
+      "tertiary": "str?"
+    },
     "elevation": "int?",
     "group": "str?",
     "iperf_host": "str?",
@@ -130,12 +136,6 @@
       "secondary": "str?",
       "tertiary": "str?"
     },
-    "devices": {
-      "person": "str?",
-      "primary": "str?",
-      "secondary": "str?",
-      "tertiary": "str?"
-    },
     "site": "str?",
     "timezone": "str?",
     "unit_system": "list(imperial|metric)?",
@@ -158,7 +158,7 @@
   "timeout": 300,
   "tmpfs": true,
   "url": "https://github.com/ageathome",
-  "version": "0.7.101",
+  "version": "0.7.102",
   "video": false,
   "webui": "http://[HOST]:[PORT:7999]/"
 }
